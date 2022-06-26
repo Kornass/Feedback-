@@ -8,9 +8,9 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #202142;
+  background-color: #4447a5;
   color: #fff;
-  line-height: 1.6;
+  line-height: 1.3;
 }
 
 ul {
@@ -29,22 +29,17 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .card {
   background-color: #fff;
-  color: #333;
+  color: black;
   border-radius: 15px;
-  padding: 40px 50px;
+  padding: 35px 50px;
   margin: 20px 0;
   position: relative;
 }
-/* 
-.card.reverse {
-  background-color: rgba(0, 0, 0, 0.4);
-  color: #fff;
-} */
 
 .card h2 {
   font-size: 22px;
@@ -103,12 +98,13 @@ header {
 .input-group {
   display: flex;
   flex-direction: row;
-  border: 1px solid #ccc;
+  border: 1px solid #ff6a95;
   padding: 8px 10px;
   border-radius: 8px;
 }
 
 input {
+  background-color: white;
   flex-grow: 2;
   border: none;
   font-size: 16px;
@@ -135,14 +131,14 @@ input:focus {
 .edit {
   position: absolute;
   top: 10px;
-  right: 20px;
+  right: 10px;
   cursor: pointer;
   background: none;
   border: none;
 }
 
 .edit {
-  right: 40px;
+  right: 25px;
 }
 
 .btn {
@@ -174,26 +170,18 @@ input:focus {
   cursor: auto;
 }
 
-.btn:disabled:hover {
-  transform: scale(1);
-  opacity: 1;
-}
-
 .message {
   padding-top: 10px;
   text-align: center;
-  color: rebeccapurple;
+  color: #ff6a95;
 }
 
-/* FIX: Remove position: absolute to keep about icon at the bottom of the
- * document */
 .about-link {
-  display: flex;
-  justify-content: flex-end;
+  position: absolute;
+  top: 15px;
+  right: 5px;
 }
 
-/* FIX: Remove position: absolute to keep about icon at the bottom of the
- * document */
 .about-link a {
   color: #fff;
   cursor: pointer;

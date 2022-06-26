@@ -11,6 +11,7 @@ function App() {
     <FeedbackProvider>
       <Router>
         <Header />
+        <AboutIconLink />
         <div className="container">
           <Routes>
             <Route
@@ -27,7 +28,6 @@ function App() {
             <Route path="/about" element={<About />} />
           </Routes>
         </div>
-        <AboutIconLink />
       </Router>
     </FeedbackProvider>
   );
