@@ -3,7 +3,6 @@ import { useContext } from "react";
 import FeedbackContext from "../context/FeedbackContext";
 function FeedbackList() {
   const { feedback } = useContext(FeedbackContext);
-  console.log(feedback);
   if (!feedback || feedback.length === 0) {
     return <p>No feedback yet</p>;
   }
