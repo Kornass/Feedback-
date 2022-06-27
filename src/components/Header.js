@@ -1,10 +1,12 @@
-import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <header>
       <div className="container">
-        <h1>Leave a Feedback for us!</h1>
+        <Link to="/" style={{ textDecoration: "none" }}>
+          <h1 style={{ color: "white" }}>Leave a Feedback for us!</h1>
+        </Link>
       </div>
     </header>
   );

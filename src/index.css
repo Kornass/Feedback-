@@ -39,6 +39,7 @@ header {
   padding: 35px 50px;
   margin: 20px 0;
   position: relative;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 10px 3px, rgba(0, 0, 0, 0.24) 0px 5px 2px;
 }
 
 .card h2 {

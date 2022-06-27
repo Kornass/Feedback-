@@ -5,8 +5,12 @@ function About() {
     <Card>
       <div className="about">
         <h1>About</h1>
+        <p>Rate your experience with us</p>
+        <p>Version 1.0.1</p>
         <p>
-          <Link to="/">Home</Link>
+          <Link to="/" style={{ textDecoration: "none" }}>
+            Home
+          </Link>
         </p>
       </div>
     </Card>

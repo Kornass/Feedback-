@@ -1,4 +1,3 @@
-import React from "react";
 import Card from "./shared/Card";
 import { useState, useContext, useEffect } from "react";
 import Button from "./Button";
